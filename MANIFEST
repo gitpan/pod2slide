@@ -1,0 +1,6 @@
+MANIFEST
+META.yml
+README
+pod2slide.pl
+toc.template
+slide.template

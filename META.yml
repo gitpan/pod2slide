@@ -1,0 +1,15 @@
+--- #YAML:1.0
+name: pod2slide
+version: 0.01
+author:
+  - Robert Rothenberg <rrwo at cpan.org>
+abstract: convert POD to slide show
+license: perl
+requires:
+  perl: 5.6.1
+  Pod::POM: 0
+  Pod::POM::View::HTML: 0
+  HTML::Template: 0
+  FileHandle: 0
+provides: {}
+generated_by: hand

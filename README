@@ -1,0 +1,32 @@
+NAME
+    pod2slide - convert POD to slide show
+
+SYNOPSYS
+
+      perl pod2slide.pl myslideshow.pod
+
+REQUIREMENTS
+    pod2slide requires the following modules:
+
+      Pod::POM
+      HTML::Template
+
+DESCRIPTION
+    This program converts a POD file to a slide show presentation.
+
+    Each page in the slide show is identified by a =head1 tag.
+
+    It was written as an alternative to Mark Jason Dominus'
+    "txt2slides" <http://perl.plover.com/yak/txt2slides.tgz>
+    utility.
+
+AUTHOR
+    Robert Rothenberg <rrwo at cpan.org>
+
+LICENSE
+    Copyright (c) 2004 Robert Rothenberg. All rights reserved. This
+    program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
+
+
