@@ -6,31 +6,36 @@
 </head>
 <body>
 
-<table>
+<table width="100%">
 <tr>
- <td width="66%"><tmpl_var name="main_title" escape="html"></td>
- <td width="33%"><tmpl_var name="num" escape="html"> of <tmpl_var name="count" escape="html"></td>
-</tr>
-</table>
-
-<hr>
-
-<tmpl_var name="body">
-
-<hr>
-
-<table>
-<tr>
- <td width="33%"><a href="<tmpl_var name="prev" escape="url">">Prev</a></td>
- <td width="33%"><a href="<tmpl_var name="toc" escape="url">">Contents</a></td>
- <td width="33%">
-   <tmpl_unless name="is_last">
-     <a href="<tmpl_var name="next" escape="url">">Next</a>
-   </tmpl_unless>
+ <td width="66%" colspan="2" align="left"
+   ><strong><tmpl_var name="main_title" escape="html"></strong>
+ </td>
+ <td width="33%" align="right"
+   ><tmpl_var name="num" escape="html"> of <tmpl_var name="count" escape="html">
  </td>
 </tr>
-</table>
+<tr>
+ <td colspan="3">
 
+<hr>
+ <tmpl_var name="body">
+<hr>
+
+</td></tr>
+<tr>
+ <td width="33%" align="left"
+  ><a href="<tmpl_var name="prev" escape="url">">Previous</a>
+ </td>
+ <td width="33%" align="center"
+  ><a href="<tmpl_var name="toc" escape="url">">Contents</a>
+ </td>
+ <td width="33%" align="right"
+  ><tmpl_unless name="is_last">
+     <a href="<tmpl_var name="next" escape="url">">Next</a>
+  </tmpl_unless></td>
+</tr>
+</table>
 
 </body>
 </html>

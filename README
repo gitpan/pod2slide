@@ -16,6 +16,9 @@ DESCRIPTION
 
     Each page in the slide show is identified by a =head1 tag.
 
+    Pages are based on HTML templates (see the *.template files
+    in the distribution).
+
     It was written as an alternative to Mark Jason Dominus'
     "txt2slides" <http://perl.plover.com/yak/txt2slides.tgz>
     utility.

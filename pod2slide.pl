@@ -9,7 +9,7 @@ use Pod::POM::View::HTML;
 
 use HTML::Template;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 my $FhIn = \*STDIN;
 my $FhOut;

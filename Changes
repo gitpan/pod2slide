@@ -1,0 +1,9 @@
+Changelog for pod2slide.pl
+
+0.02  22 Mar 2004
+	- improved README
+	- redid distribution
+	- fixed formatting in slide.template
+
+0.01  21 Mar 2004
+	- original version uploaded to CPAN
